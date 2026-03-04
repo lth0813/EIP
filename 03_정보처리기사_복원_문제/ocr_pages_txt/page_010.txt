@@ -1,0 +1,34 @@
+71. 다음 ( 코드의 실행 결과를 보기에서 고르시오. 73. 다음 중 변수 명명 규칙에 어긋나는 것을 보기에
+#include <stdio.h>                                    3   서 고르시오. (단, 언어는 ( 또는 Java 기준이다.)
+.       .                                              | @score1
+int main() {
+char a[9] = "ABACADBC":;                     | @_average
+for (int i= 1; i < 8; i++) {  @ Ttotal
+if (afi] =='B) {                              |   @ maxValue
+ali] = 'D';                                      |
+yelse {                                          !   74. 다음 Java BEE 외부에서 46ㅇ0ㅇ411클래스의
+char t = 하바                               ㅣ 멤버 변수에 직접적으로 접근할 + 없도록 접근제어
+ali] = ali - 11:                           |   를 시정하였다. 빈 칸에 들어갈 알맞은 접근 제어자
+이 사론                                  ㅣ 의조합을 보기에서 고르시오.
+}                                                ‘| class Account {
+}       < Hl 2t > int balance;
+printf("%s", a);        < 빈칸 > void deposit(int amount) {
+return 0;          balance += amount;
+}                                                        (| 3
+|)
+@ ADBAACDC           @ AADACDDC     public class Main {
+@ ABAAADCC             @ AACADDCD         public static void main(String[] args) {
+          Account a = new Account();
+72. 다음 Java DE9| 출력 결과를 보기에서 고르시 |           a.deposit(100);
+2.       }
+public class Main {
+public static void main(String[] args) {        :   ® public, public
+int b = 50:                                       |   @ private, private
+intc = ((a+b)/2>=60)?2:4;   @ private, public
+System.out.printin(c);   @ protected, public
+|  )                                                      |   75. JavaQlA] A 클래스의 생성자 메소드와 소멸자
+ 메소드의 이름으로 올바른 것을 보기에서 고르시오.
+02                                                           | (2) 생성자: A, 소멸자: finalize
+@4 (2 생성자: init, 소멸자: delete
+(3) 60   (3) 생성자: A, 소멸자: destructor
+@® 120                                           :   @ 생성자: newA, 소멸자: destroy

@@ -1,0 +1,31 @@
+53. 다음 중 병행제어(000041『600\> Control)2| 58. 다음 중 데이터베이스 이상 현상(삽입, 갱신, At
+장점에 해당하지 않는 것은 무엇인가? 제 이상)의 주된 원인은 무엇인가?
+0 데이터의 무결성을 유지할 수 있다.                      | @ 인덱스 설정 오류
+(2) 다수의 사용자가 동시에 데이터에 접근할 수 있다.      !   @ 데이터 중복과 종속성 문제
+@ 트랜잭션의 결과를 불일치 상태로 만든다.     | 6@ 저장공간 부족
+@® 시스템 자원의 활용도를 높일 수 있다.                  | @ 쿼리 최적화 실패
+54. 다음 중 데이터베이스에서 뷰(\16\)의 특징에 ㅣ 59. 다음 중 STUDENT(SNO, SNAME, YEAR,
+해당하지 않는 것은 무엇인가?    DEPT) 테이블에 200번, 김길동, 2학년, 전산과 st
+(1) 실제 데이터는 저장하지 않고 정의만 저장된다.    생 정보를 삽입하는 SQL 명령으로 올바른 것은 무엇
+@ 보안성 강화에 활용될 수 있다.                          ' 인가?
+@ 수정 작업이 항상 자유롭고 쉽다.                     ! @ INSERT INTO STUDENT (SNO, SNAME,
+® 복잡한 질의를 단순화할 수 있다.   YEAR, DEPT) VALUES ('김길동', 200, '2학년',
+| '전산과");
+55. 다음 중 트랜잭션의 ACID 특성에 해당하지 않  |  @ INSERT STUDENT (200, '김길동', '2학년',
+는 것은 무엇인가?                                              | '전산과);
+6) Accessibility                                  ! @ INSERT INTO STUDENT VALUES ('김길동',
+@ Atomicity                                                 ' 200, '2학년', '전산과');
+(3) Consistency   @ INSERT INTO STUDENT (SNO, SNAME,
+@ Durability                                           ' YEAR, DEPT) VALUES (200, '김길동', '2학년',
+: '전산과);
+56. 다음 중 관계 CH4A(Relational Algebra)O|A] ㅣ!
+집합 연산에 해당하지 않는 것은 무엇인가?                ' 60. 다음 중 관계대수 ㅠㅁ08176, dept (o year = 3
+@ UNION                                                  ' (student))= SQLZ 올바르게 표현한 것은 무엇인
+@ SELECT                                              mez
+@ INTERSECT                                         ‘ @ SELECT name, dept FROM student
+@ MINUS                        ‘WHERE year = 3;
+‘ @ SELECT year FROM student WHERE
+57. DAS(Direct Attached Storage) 인터페이   ! name = ‘dept’;
+스에 적용되는 프로토콜이 아닌 AL 무엇인가?         |   @ SELECT * FROM student WHERE year = 3;
+@ USB               @ SATA                         ‘ @ SELECT name, dept FROM student
+(6) 5051               @ Fibre Channel              ‘WHERE dept = 3;
